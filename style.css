@@ -27,66 +27,27 @@ a {
   color: inherit;
 }
 
-header {
-  background: linear-gradient(135deg, var(--navy), var(--navy2));
-  color: white;
-  padding: 70px 20px;
-  text-align: center;
-}
+<!-- HERO -->
+<header>
+  <div class="hero-content">
+    <h1>Boost Your Scores with <span class="highlight">Hachem Bey Tutoring</span></h1>
+    <p class="hero-subtitle">
+      High-yield, concept-driven tutoring for <strong>MCAT</strong> and 
+      <strong>USMLE Step 1 & Step 2</strong>. Learn smarter, not harder, and gain confidence
+      on test day.
+    </p>
 
-header h1 {
-  font-size: 2.6rem;
-  margin-bottom: 10px;
-  letter-spacing: 0.5px;
-}
+    <div class="cta-buttons">
+      <a class="btn btn-primary" href="https://calendly.com/YOUR-CALENDLY-LINK" target="_blank">
+        Book Your First Session
+      </a>
+      <a class="btn btn-outline" href="#contact">
+        Ask a Question
+      </a>
+    </div>
+  </div>
+</header>
 
-header p {
-  font-size: 1.2rem;
-  max-width: 700px;
-  margin: 0 auto 25px;
-  opacity: 0.95;
-}
-
-.highlight {
-  color: var(--gold);
-  font-weight: bold;
-}
-
-.cta-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  margin-top: 15px;
-}
-
-.btn {
-  padding: 14px 22px;
-  border-radius: 10px;
-  font-weight: bold;
-  transition: 0.2s ease;
-  display: inline-block;
-}
-
-.btn-primary {
-  background: var(--gold);
-  color: var(--navy);
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  opacity: 0.95;
-}
-
-.btn-outline {
-  border: 2px solid white;
-  color: white;
-}
-
-.btn-outline:hover {
-  background: rgba(255,255,255,0.1);
-  transform: translateY(-2px);
-}
 
 section {
   padding: 65px 20px;
