@@ -114,6 +114,9 @@ section {
   font-size: 2rem;
   margin-bottom: 12px;
   color: var(--navy);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-subtitle {
