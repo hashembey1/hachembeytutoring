@@ -197,6 +197,8 @@ section {
 /* PRICING */
 .pricing {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pricing-card {
@@ -236,6 +238,8 @@ section {
 /* CONTACT */
 .contact {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-box {
